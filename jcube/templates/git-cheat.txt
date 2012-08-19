@@ -1,0 +1,41 @@
+* Create & clone
+** git init
+*** create new repository
+** git clone /path/to/repo
+*** clone local repository
+** git clone username@host:/path/to/repo
+*** clone remote repo
+
+* Add & remove
+** git add <filename>
+*** add changes to INDEX
+** git add *
+*** add all changes to index
+** get rm <filename>
+*** remove/delete
+
+* Commit & sync
+** git commit -m "commit message"
+*** commit changes
+** git push origin master
+*** push changes to remote repo
+** git remote add origin <server>
+*** connect local repo to remote
+** git pull
+*** update local repository with remote changes
+
+* Branches
+** git checkout -b <branch>
+*** create new branch
+** git checkout master
+*** switch to master branch
+** git branch -d <branch>
+*** delete branch
+** git push origin <branch>
+*** push branch to remote repo
+
+* Merge
+** git merge <branch>
+*** merge changes from another branch
+** git diff <source_branch> <target_branch>
+*** view changes between two branches
